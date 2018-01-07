@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AuthenticateUser</servlet-name>
+  	<display-name>AuthenticateUser</display-name>
+  	<description></description>
+  	<servlet-class>com.bookmyshow.service.AuthenticateUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>com.bookmyshow.service.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookTicket</servlet-name>
+  	<display-name>BookTicket</display-name>
+  	<description></description>
+  	<servlet-class>com.bookmyshow.service.BookTicket</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteTicket</servlet-name>
+  	<display-name>DeleteTicket</display-name>
+  	<description></description>
+  	<servlet-class>com.bookmyshow.service.DeleteTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AuthenticateUser</servlet-name>
+  	<url-pattern>/AuthenticateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookTicket</servlet-name>
+  	<url-pattern>/BookTicket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteTicket</servlet-name>
+  	<url-pattern>/DeleteTicket</url-pattern>
+  </servlet-mapping>
+</web-app>
+
